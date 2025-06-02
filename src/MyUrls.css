@@ -1,0 +1,68 @@
+
+.myurls-page {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(135deg, #ffe8a1, #ffd580);
+  padding: 40px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+
+.myurls-page h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
+}
+
+.error-msg {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.urls-table {
+  width: 90%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.urls-table th,
+.urls-table td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  word-break: break-word;
+}
+
+.urls-table th {
+  background-color: #f9c74f;
+  color: #333;
+  font-size: 16px;
+}
+
+.urls-table tr:hover {
+  background-color: #f2f2f2;
+}
+
+.urls-table a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.urls-table a:hover {
+  text-decoration: underline;
+}
